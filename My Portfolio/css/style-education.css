@@ -1,0 +1,26 @@
+.main-container {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+  color: rgba(9, 49, 67, 0.991);
+}
+.main-education-header, .main-skills-header{
+    margin-top: 100px;
+}
+
+.main-education-header, .main-education-details, .main-skills-header, .tech-skills, .non-tech-skills{
+    margin-left: 50px;
+    justify-content: center;
+}
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 2rem;
+}
+h3{
+    font-size: 1.5rem;
+}
+p, li{
+    font-size: 1.2rem;
+}

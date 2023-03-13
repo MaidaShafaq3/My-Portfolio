@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/style-contact.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <div class="main-image">
+          <img src="../assets/Maida Shafaq.JPG" alt="Maida's Photo" />
+        </div>
+        <div class="sidenav">
+          <ul>
+            <li><a class="page-link" href="/home.html">Home</a></li>
+            <li>
+              <a class="page-link" href="education&skills.html">Education & Skills</a>
+            </li>
+            <li>
+              <a class="page-link" href="projects.html">Projects</a>
+            </li>
+            <li><a class="page-link" href="#">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <main>
+        <div class="main-container">
+            <div class="contact-main-container">
+                <div class="contact-form-header">
+                    <div>
+                        <!-- <h1>CONTACT ME</h1> -->
+                        <h1>GET IN TOUCH!</h1>
+                        <p>
+                          Feel free to reach out for any inquiries and I'll follow up as soon as
+                          possible
+                        </p>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <form action="" class="contact-form">
+                        <div class="form-input">
+                            <label for="fname">First Name:</label>
+                            <input type="text" name="fname" id="fname" required>
+                        </div>
+                        <div class="form-input">
+                            <label for="lname">Last Name:</label>
+                            <input type="text" name="lname" id="lname" required>
+                        </div>
+                        <div class="form-input">
+                            <label for="email">Email:</label>
+                            <input type="email" name="email" id="email" required>
+                        </div>
+                        <div class="form-input">
+                            <label for="birthday">Birthday:</label>
+                            <input type="date" name="birthday" id="birthday">
+                        </div>
+                        <div class="form-input">
+                            <label for="check">Did you like my Portfolio Website?</label>
+                            <select name="check" id="input-select">
+                                <option value="default" selected>--None--</option>
+                                <option value="yes">Yes</option>
+                                <option value="no">No</option>
+                            </select>
+                        </div>
+                        <div class="form-input">
+                            <label for="msg">Message:</label><br>
+                            <textarea name="msg" id="msg" cols="30" rows="5" placeholder="Any positive or negative comment can be added here"></textarea>
+                        </div>
+                        <div class="form-buttons">
+                            <input type="reset" value="Reset">
+                            <input type="submit" value="Submit" onclick="alert('Thanks! Your response has been Submitted.')"> 
+                        </div>
+                    </form>
+                </div>
+            </div>
+            
+        </div>
+    </main>
+    <footer id="footer-container">
+      <div class="footer-content">
+        <div>
+            <a href="https://twitter.com/MaidaShafaq">Twitter</a>
+            <a href="https://www.facebook.com/profile.php?id=100008385492088">Facebook</a>
+            <a href="https://www.instagram.com/maidashafaq/?hl=en">Instagram</a>
+            <a href="https://www.linkedin.com/in/maida-shafaq-980b32216/">LinkedIn</a>
+        </div>
+        <div>
+            <p>@2023 Maida Shafaq Portfolio</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

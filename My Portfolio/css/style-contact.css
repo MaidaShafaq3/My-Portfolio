@@ -1,0 +1,76 @@
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+  color: rgba(9, 49, 67, 0.991);
+}
+.contact-main-container {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 40%;
+}
+.contact-form-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.6rem;
+  margin-bottom: 4px;
+}
+.contact-form-header p {
+  font-size: 1rem;
+}
+.contact-form-header h1 {
+  font-size: 3rem;
+}
+.form-input {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  margin-bottom: 8px;
+}
+.form-input > label {
+  font-size: 1rem;
+  margin-bottom: 7px;
+}
+.form-input > input,
+select {
+  flex-grow: 1;
+  color: rgb(0, 0, 0);
+  font-size: 0.9rem;
+  height: 25px;
+  padding: 4px;
+  background-color: rgba(192, 214, 223, 0.991);
+  border-color: rgb(37, 33, 33);
+  border-radius: 5px;
+}
+.form-input > textarea {
+  flex-grow: 1;
+  color: rgb(0, 0, 0);
+  font-size: 0.9rem;
+  /* height: 25px; */
+  padding: 4px;
+  background-color: rgba(192, 214, 223, 0.991);
+  border-color: rgb(37, 33, 33);
+  border-radius: 5px;
+}
+.form-buttons {
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: space-around;
+  flex-basis: 50% 50%;
+}
+.form-buttons > input {
+  flex-grow: 1;
+  /* width: 197px; */
+  background-color: rgb(37, 33, 33);
+  color: bisque;
+  border-color: rgb(37, 33, 33);
+  border-radius: 5px;
+  padding: 8px;
+  margin-right: 4px;
+  margin-left: 4px;
+  cursor: pointer;
+}
